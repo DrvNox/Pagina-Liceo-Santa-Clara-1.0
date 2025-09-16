@@ -1,0 +1,284 @@
+@media (max-width: 992px) {
+  .nav-links {
+    gap: 15px;
+  }
+
+  .uniformes-inner img,
+  .galeria img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .matricula h2,
+  .informacion-atencion h2,
+  .uniformes h2 {
+    font-size: 22px;
+  }
+
+  .uniformes-inner {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .uniformes-inner img {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .galeria {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .galeria img {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .horarios-card {
+    width: 90%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .matricula button {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .nav-links li a {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .uniformes-inner img,
+  .galeria img {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0 calc(50% - 50vw);
+    margin-inline: auto;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #316feb, #0088ff);
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-top: 1px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.nav-links li a:hover {
+    background: white;
+    color: #0044cc;
+}
+.matricula {
+  text-align: center;
+  margin: 50px 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.matricula h2 {
+  font-size: 28px;
+  color: #0d47a1;
+  margin-bottom: 20px;
+}
+
+.matricula button {
+  background: linear-gradient(135deg, #1565c0, #42a5f5);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.matricula button:hover {
+  background: linear-gradient(135deg, #0d47a1, #1976d2);
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.informacion-atencion {
+  text-align: center;
+  margin: 40px auto;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.informacion-atencion h2 {
+  font-size: 28px;
+  color: #0d47a1;
+  margin-bottom: 20px;
+}
+
+.horarios-card {
+  background: #ffffff;
+  border: 2px solid #0d47a1;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  max-width: 500px;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.horarios-card:hover {
+  transform: scale(1.03);
+}
+
+.horarios-card h3 {
+  font-size: 22px;
+  color: #1565c0;
+  margin-bottom: 15px;
+}
+
+.horarios-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.horarios-card li {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+  padding: 10px;
+  background: #f0f4ff;
+  border-radius: 8px;
+}
+
+.uniformes {
+  text-align: center;
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.uniformes h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #0d47a1;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #42a5f5;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.lema-box {
+  margin-bottom: 40px;
+}
+
+.lema-box h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #1565c0;
+  margin-bottom: 20px;
+}
+
+.uniformes-inner {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.uniformes-inner p {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #0d47a1;
+}
+
+.uniformes-inner img {
+  width: 220px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.uniformes-inner img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.3);
+}
+
+
+.uniformes-gala {
+  text-align: center;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.galeria img {
+  width: 260px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.galeria img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.3);
+}
+

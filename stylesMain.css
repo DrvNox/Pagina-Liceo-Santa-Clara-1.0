@@ -1,0 +1,293 @@
+
+@media (max-width: 992px) {
+  .nav-links {
+    gap: 15px;
+  }
+
+  .uniformes-inner img,
+  .galeria img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .matricula h2,
+  .informacion-atencion h2,
+  .uniformes h2 {
+    font-size: 22px;
+  }
+
+  .uniformes-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .uniformes-inner img {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .galeria {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .galeria img {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .horarios-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .matricula button {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .nav-links li a {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .uniformes-inner img,
+  .galeria img {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0 calc(50% - 50vw);
+    margin-inline: auto;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #316feb, #0088ff);
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-top: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.nav-links li a:hover {
+    background: white;
+    color: #0044cc;
+}
+
+.mision-box {
+    border: 2px solid black;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vision-box {
+    border: 2px solid black;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.auto {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+.autoridades-section,
+.autoridades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.autoridad {
+    text-align: center;
+}
+
+.autoridad img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.contenedor-hoja {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+
+.carrusel {
+    display: flex;
+    position: relative;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.carrusel .slides {
+    display: flex;
+    transition: transform 0.6s ease-in-out;
+    width: 100%;
+}
+
+
+.carrusel .slide {
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+
+.carrusel .slide img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carrusel .slide img:hover {
+    transform: scale(1.03);
+    
+}
+
+
+.carrusel .prev,
+.carrusel .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background 0.3s;
+    z-index: 10;
+}
+
+.carrusel .prev:hover,
+.carrusel .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carrusel .prev {
+    left: 15px;
+}
+
+.carrusel .next {
+    right: 15px;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+    border-radius: 10px;
+    
+}
+
+.boton-flotante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.boton-flotante a {
+    background: #25d366;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.boton-flotante a:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    margin-top: 20px;
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
